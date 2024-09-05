@@ -11,5 +11,6 @@ In the second stage, a multilabel classification model identified the specific t
 Defect Segmentation: Generating Masks
 For images predicted to have defects, the third stage generated segmentation masks using separate models for each defect type. Four separate segmentation models were employed, each trained to detect and segment a specific type of defect. For images predicted to have defects, the third stage generated segmentation masks using separate models for each defect type.
 
-Methodology of the overall Design.
+Methodology of the overall Design:
+
 ![image](https://github.com/user-attachments/assets/6b247741-0510-4ece-83da-da756521bc8e)
